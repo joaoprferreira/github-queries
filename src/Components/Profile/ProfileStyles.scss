@@ -1,0 +1,21 @@
+@import "../../GlobalStyles.scss";
+
+
+.profile-component {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .imagem-card {
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #BDAA60;
+    margin: 20px;
+  }
+
+  .name-card {
+    color: #EDECE4;
+    font-family: $fontPrincipal;
+  }
+  
+  }
